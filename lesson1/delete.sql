@@ -1,0 +1,2 @@
+DELETE FROM Category
+WHERE id = 5
