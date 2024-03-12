@@ -18,7 +18,7 @@ class Actor(Base):
     actor_films = relationship("FilmActor", back_populates="actor")
 
     def __str__(self):
-        return f"Actor {self.id} {self.full_name}"
+        return f"Actor {self.id} {self.first_name} {self.last_name} {self.middle_name if self.middle_name else ''}"
 
     def __repr__(self):
         return str(self)
