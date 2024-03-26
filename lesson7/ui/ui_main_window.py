@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'from_designer/main_window.ui'
+# Form implementation generated from reading ui file '.\from_designer\main_window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -42,9 +42,6 @@ class Ui_MainWindow(object):
         self.verticalLayout.addWidget(self.tableWidget)
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.push_button_update = QtWidgets.QPushButton(self.centralwidget)
-        self.push_button_update.setObjectName("push_button_update")
-        self.horizontalLayout.addWidget(self.push_button_update)
         self.push_button_create = QtWidgets.QPushButton(self.centralwidget)
         self.push_button_create.setObjectName("push_button_create")
         self.horizontalLayout.addWidget(self.push_button_create)
@@ -66,7 +63,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Свой заголовок"))
         item = self.tableWidget.horizontalHeaderItem(0)
         item.setText(_translate("MainWindow", "id"))
         item = self.tableWidget.horizontalHeaderItem(1)
@@ -77,6 +74,5 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "Отчество"))
         item = self.tableWidget.horizontalHeaderItem(4)
         item.setText(_translate("MainWindow", "Дата рождения"))
-        self.push_button_update.setText(_translate("MainWindow", "Обновить"))
         self.push_button_create.setText(_translate("MainWindow", "Создать"))
         self.push_button_delete.setText(_translate("MainWindow", "Удалить"))
